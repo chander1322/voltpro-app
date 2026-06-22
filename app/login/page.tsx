@@ -44,7 +44,7 @@ export default function LoginPage() {
           <div className={styles.logoRow}>
             <div className={styles.logoBox}>⚡</div>
             <span className={styles.logoText}>
-              Volt<span className={styles.logoAccent}>Pro</span>
+              Kamboj<span className={styles.logoAccent}>Electrical</span>
             </span>
           </div>
         </Link>

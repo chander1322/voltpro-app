@@ -14,23 +14,23 @@ const services = [
 ]
 
 const stats = [
-  { value: '15+', label: 'Years Experience' },
+  { value: '10+', label: 'Years Experience' },
   { value: '3,200+', label: 'Projects Done' },
   { value: '98%', label: 'Client Satisfaction' },
   { value: '24/7', label: 'Support Available' },
 ]
 
 const testimonials = [
-  { name: 'Rajesh Sharma', role: 'Home Owner, Ludhiana', text: 'Excellent work! They rewired my entire house in 2 days without any mess. Very professional team.' },
+  { name: 'Rajesh Sharma', role: 'Home Owner, Kharar', text: 'Excellent work! They rewired my entire house in 2 days without any mess. Very professional team.' },
   { name: 'Priya Mehta', role: 'Restaurant Owner', text: 'Got our commercial kitchen wired perfectly. They handled every safety requirement without any issues.' },
   { name: 'Sukhwinder Singh', role: 'Factory Manager', text: 'We use them for all our industrial electrical needs. Fast, reliable, and very affordable.' },
 ]
 
 const faqs = [
-  { q: 'How quickly can you respond to emergencies?', a: 'We offer 24/7 emergency response and typically reach within 30-60 minutes in Ludhiana and surrounding areas.' },
+  { q: 'How quickly can you respond to emergencies?', a: 'We offer 24/7 emergency response and typically reach within 30-60 minutes in Kharar and surrounding areas.' },
   { q: 'Are your electricians certified?', a: 'Yes, all our electricians are government-certified with valid licenses and undergo regular safety training.' },
   { q: 'Do you provide a warranty on work?', a: 'We provide 1-year warranty on all electrical work and 5-year warranty on panel installations.' },
-  { q: 'What areas do you cover?', a: 'We cover Ludhiana, Jalandhar, Amritsar, Patiala and all nearby districts in Punjab.' },
+  { q: 'What areas do you cover?', a: 'We cover Kharar, Belongi, Mohali, Chandigarh and all nearby Area in these Locations.' },
 ]
 
 const aboutFeatures = [
@@ -80,7 +80,7 @@ export default function HomePage() {
         <nav className={`${styles.nav} ${scrolled ? styles.navScrolled : ''}`}>
           <div className={styles.navLogo}>
             <div className={styles.navLogoIcon}>⚡</div>
-            <span className={styles.navLogoText}>Volt<span className={styles.navLogoAccent}>Pro</span></span>
+            <span className={styles.navLogoText}>Kamboj<span className={styles.navLogoAccent}>Electrical</span></span>
           </div>
           <div className={styles.navLinks}>
             {['Services', 'About', 'Testimonials', 'FAQ'].map(item => (
@@ -115,7 +115,7 @@ export default function HomePage() {
               Service
             </h1>
             <p className={styles.heroSubtitle}>
-              Professional electrical solutions for homes, businesses and industries across Punjab. Certified, safe, and built to last.
+              Professional electrical solutions for homes, businesses and industries across Kharar Mohali, Punjab. Certified, safe, and built to last.
             </p>
             <div className={styles.heroBtns}>
               <Link href="/register" className={styles.heroPrimaryBtn}>Get Free Quote ⚡</Link>
@@ -156,7 +156,7 @@ export default function HomePage() {
             <div>
               <span className={styles.aboutTag}>Why Choose Us</span>
               <h2 className={styles.aboutTitle}>Safety. Speed.<br /><span className={styles.aboutTitleAccent}>Quality Work.</span></h2>
-              <p className={styles.aboutDesc}>With over 15 years in the electrical industry across Punjab, VoltPro has earned the trust of thousands of homes and businesses. We don&apos;t just fix problems — we build electrical systems that last decades.</p>
+              <p className={styles.aboutDesc}>With over 10+ years in the electrical industry across Punjab, VoltPro has earned the trust of thousands of homes and businesses. We don&apos;t just fix problems — we build electrical systems that last decades.</p>
               <div className={styles.aboutFeatures}>
                 {aboutFeatures.map((item, i) => (
                   <div key={i} className={styles.aboutFeatureItem}>
@@ -170,13 +170,13 @@ export default function HomePage() {
               </div>
             </div>
             <div className={styles.aboutCard}>
-              <div className={styles.aboutCardBadge}>Since 2009</div>
+              <div className={styles.aboutCardBadge}>Since 2015</div>
               <span className={styles.aboutCardEmoji}>⚡</span>
               <h3 className={styles.aboutCardTitle}>Ready for any scale</h3>
               <p className={styles.aboutCardDesc}>From a single bulb replacement to complete industrial wiring of a 50,000 sq ft factory — our team handles it all with the same dedication and precision.</p>
               <div className={styles.aboutCardPhone}>
                 <div className={styles.aboutCardPhoneLabel}>📞 Emergency Helpline</div>
-                <div className={styles.aboutCardPhoneNumber}>+91 98765 43210</div>
+                <div className={styles.aboutCardPhoneNumber}>+91 80542 99660</div>
               </div>
             </div>
           </div>
@@ -235,16 +235,16 @@ export default function HomePage() {
           <p className={styles.ctaSubtitle}>Register today and get a free consultation from our certified electricians.</p>
           <div className={styles.ctaBtns}>
             <Link href="/register" className={styles.ctaPrimaryBtn}>Register Now — Free Quote</Link>
-            <a href="tel:+919876543210" className={styles.ctaSecondaryBtn}>📞 Call Us Now</a>
+            <a href="tel:+918054299660" className={styles.ctaSecondaryBtn}>📞 Call Us Now</a>
           </div>
         </section>
 
         <footer className={styles.footer}>
           <div className={styles.footerLogo}>
             <span>⚡</span>
-            <span className={styles.footerLogoText}>Volt<span className={styles.footerLogoAccent}>Pro</span></span>
+            <span className={styles.footerLogoText}>Kamboj<span className={styles.footerLogoAccent}>Electrical</span></span>
           </div>
-          <div className={styles.footerCopy}>© 2025 VoltPro Electrical Services. All rights reserved. Punjab, India.</div>
+          <div className={styles.footerCopy}>© 2026 Kamboj Electrical Services. All rights reserved. Punjab, India.</div>
           <div className={styles.footerLinks}>
             <Link href="/login" className={styles.footerLink}>Login</Link>
             <Link href="/register" className={styles.footerLink}>Register</Link>

@@ -113,7 +113,7 @@ export default function RegisterPage() {
               justifyContent: 'center', fontSize: 20
             }}>⚡</div>
             <span style={{ fontSize: 22, fontWeight: 800, color: '#fff', letterSpacing: '-0.5px' }}>
-              Volt<span style={{ color: '#FFC800' }}>Pro</span>
+              Kamboj<span style={{ color: '#FFC800' }}>Electrical</span>
             </span>
           </div>
         </Link>
