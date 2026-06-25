@@ -123,7 +123,7 @@ export default function LoginPage() {
 
           <div className={styles.helpBox}>
             <div className={styles.helpText}>📞 Need help? Call us</div>
-            <div className={styles.helpPhone}>+91 98765 43210</div>
+            <div className={styles.helpPhone}>+91 80542 99660</div>
           </div>
         </div>
       </div>
